@@ -1,0 +1,26 @@
+.carousel-indicators img {
+  width: 150px;
+  display: block;
+  position: relative;
+  bottom: 130px;
+}
+.carousel-indicators button {
+  width: max-content !important;
+}
+.carousel-indicators {
+  position: unset;
+}
+.carousel-control-next,
+.carousel-control-prev {
+  top: 50%;
+  bottom: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .carousel-indicators img {
+    width: 50px;
+    display: block;
+    position: relative;
+    bottom: 50px;
+  }
+}

@@ -1,0 +1,32 @@
+li {
+    display: inline;
+    overflow: auto;
+    white-space: nowrap;
+    background-color: #414F6B;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.Mount {
+    background-color: #414F6B;
+    color: #B0B4BE;
+    font-size: 18px;
+    padding-left: 10px;
+}
+
+.Mount:focus {
+    background-color: #B0B4BE;
+    color: #414F6B;
+}
+
+header {
+    background-color: #414F6B;
+    margin: 0;
+    padding: 10px;
+}
+
+.Teams img {
+    width: 100%;
+}
